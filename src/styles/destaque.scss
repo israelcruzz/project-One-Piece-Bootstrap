@@ -1,0 +1,26 @@
+.destaques{
+    background-color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: sticky;
+
+    .mangas-destaque{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card-manga-destaque{
+        width: 200px;
+        border: none;
+    }
+
+    .img-thumbnail {
+        background: none;
+    }
+}
+

@@ -1,0 +1,21 @@
+.actions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .card{
+        border: none;
+        width: 18rem;
+    }
+            
+    .card img{
+        border-radius: 10px;
+    }
+}
